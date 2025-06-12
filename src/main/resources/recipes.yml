@@ -1,0 +1,69 @@
+recipes:
+  chocolate:
+    station: POT
+    inputs:
+      cocoa: 1
+    result:
+      material: COOKIE
+      name: §6수제 초콜릿
+      lore: §7달콤한 코코아 향이 풍깁니다.
+    success: 0.9
+    time: 4
+
+  popcorn:
+    station: PAN
+    inputs:
+      corn: 1
+    result:
+      material: POPPED_CHORUS_FRUIT
+      name: §e바삭한 팝콘
+      lore: §7톡 터지는 바삭함!
+    success: 0.8
+    time: 3
+
+  cookie:
+    station: OVEN
+    inputs:
+      flour: 2
+      egg_yolk: 1
+    result:
+      material: COOKIE
+      name: §d달콤한 수제 쿠키
+      lore: §7따뜻하고 부드러운 느낌
+    success: 0.85
+    time: 5
+
+  cocoa_powder:
+    station: MORTAR
+    inputs:
+      cocoa: 1
+    result:
+      material: GUNPOWDER
+      name: §6코코아가루
+      lore: §7고운 입자의 코코아 가루
+    success: 1.0
+    time: 2
+
+  egg_chocolate:
+    station: POT
+    inputs:
+      cocoa_powder: 2
+      egg_yolk: 1
+    result:
+      material: CAKE
+      name: §d에그 초콜릿
+      lore: §7고급 디저트 요리
+    success: 0.7
+    time: 6
+
+  juice:
+    station: BLENDER
+    inputs:
+      melon: 1
+      sugar_cane: 2
+    result:
+      material: HONEY_BOTTLE
+      name: §a과일 주스
+      lore: §7상큼한 한 잔
+    success: 0.9
+    time: 3

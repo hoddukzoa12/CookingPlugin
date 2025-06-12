@@ -1,0 +1,10 @@
+name: CookingPlugin
+version: '1.0-SNAPSHOT'
+main: org.job.cookingplugin.CookingPlugin
+api-version: '1.20'
+softdepend: [Job]
+
+commands:
+  cook:
+    description: 조리 GUI 열기
+    usage: /cook <도구>
