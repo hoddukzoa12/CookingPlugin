@@ -1,5 +1,5 @@
 
-```markdown
+
 # 🍳 CookingPlugin - 마인크래프트 요리 플러그인
 
 직업 플러그인의 커스텀 작물 드롭과 연동되는 **정밀 요리 시스템**입니다.  
@@ -34,12 +34,12 @@
 ## 📁 플러그인 구조
 
 
-
+```sh
 CookingPlugin/
 ├── config.yml (미사용)
 ├── recipes.yml    # 요리 레시피 정의
 ├── storage/       # 향후 확장 저장공간
-
+```
 
 
 ---
